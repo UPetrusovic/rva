@@ -1,0 +1,96 @@
+/* Container Styling */
+.container {
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+.mat-dialog-title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+  color: #333;
+}
+
+/* Form Field Styling */
+.form {
+  margin-bottom: 20px;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+.mat-form-field input {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Field Placeholder Styling */
+::placeholder {
+  color: #aaa;
+  opacity: 1;
+}
+
+/* Button Styling */
+.mat-dialog-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.mat-dialog-actions button {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #1976d2;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.mat-dialog-actions button:hover {
+  background-color: #1565c0;
+  transform: translateY(-2px);
+}
+
+.mat-dialog-actions button:active {
+  background-color: #0d47a1;
+  transform: translateY(0);
+}
+
+/* Special Button Styling */
+.mat-dialog-actions button:nth-child(4) {
+  background-color: #e0e0e0;
+  color: #000;
+}
+
+.mat-dialog-actions button:nth-child(4):hover {
+  background-color: #d5d5d5;
+}
+
+.mat-dialog-actions button:nth-child(4):active {
+  background-color: #c2c2c2;
+}
+
+/* Additional Button Styles */
+.mat-dialog-actions button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.mat-dialog-actions button.mat-primary {
+  background-color: #00796b;
+}
+
+.mat-dialog-actions button.mat-warn {
+  background-color: #d32f2f;
+}

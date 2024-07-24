@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.component.css"> 
+</head>
+<body>
+  <mat-toolbar color="primary">
+    <span class="title">Dobrodošli u Banka Aplikaciju</span>
+  </mat-toolbar>
+
+  <div class="home-container">
+    <div class="hero">
+      <h1>Finansijske usluge koje zaslužujete</h1>
+      <p>Pružamo vrhunske bankarske usluge prilagođene vašim potrebama. Upoznajte našu ponudu i započnite finansijsko putovanje s nama.</p>
+      <a mat-raised-button color="accent" class="cta-button" routerLink="/about">O nama</a>
+    </div>
+
+    <div class="features">
+      <div class="feature">
+        <mat-icon class="feature-icon">account_balance</mat-icon>
+        <h2>Širok spektar usluga</h2>
+        <p>Nudimo raznovrsne bankarske usluge kako bi zadovoljili sve vaše finansijske potrebe.</p>
+      </div>
+      <div class="feature">
+        <mat-icon class="feature-icon">security</mat-icon>
+        <h2>Sigurnost</h2>
+        <p>Vaša sigurnost je naš prioritet. Osiguravamo da su vaši podaci i sredstva zaštićeni.</p>
+      </div>
+      <div class="feature">
+        <mat-icon class="feature-icon">support_agent</mat-icon>
+        <h2>Podrška 24/7</h2>
+        <p>Naš tim za korisničku podršku je tu za vas, u bilo koje doba dana ili noći.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>© 2024 Banka Aplikacija. Sva prava zadržana.</span>
+  </div>
+</body>
+</html>
